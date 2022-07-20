@@ -1,0 +1,20 @@
+"""
+4. Faça um programa, utilizando os operadores lógicos, 
+que pergunte ao usuário se ele é pedestre ou motorista e realize, 
+a partir da resposta, os seguintes casos:
+
+1° Caso: Se o usuário for um pedestre, o programa deve perguntar:
+
+Se ele está na faixa de travessia de pedestres
+Se o semáforo (sinal de trânsito) está vermelho para os carros
+O programa deve mostrar na tela que o usuário pode atravessar a 
+rua somente se as duas condições forem verdadeiras.
+"""
+resposta = input('Você é pedestre ou motorista? ')
+if resposta == 'pedestre':
+  pergunta1 = input('você está na faixa de pedestres? ')
+  pergunta2 = input('o semáforo está vermelhor para os carros? s')
+  if pergunta1 == 'sim' and pergunta2 == 'sim':
+    print('Você pode atravessar. ')
+  else:
+    print('você não pode atravessar')
